@@ -1,9 +1,10 @@
-import React from "react";
-
+import Navbar from "./Navbar";
+import Searchbar from "./Searchbar";
 const Header = () => {
   return (
     <div>
-      <h1> Movie data base</h1>
+      <Navbar />
+      <Searchbar />
     </div>
   );
 };
