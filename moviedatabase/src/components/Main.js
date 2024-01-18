@@ -97,7 +97,7 @@ const Main = () => {
             <p>Year:{movie.Year}</p>
             <p>Type:{movie.Type}</p>
             <div className="display-block ">
-              <img className="rounded-md " src={movie.Poster} />
+              <img className="rounded-md mt-1 " src={movie.Poster} />
             </div>
           </div>
         ))}

@@ -1,8 +1,11 @@
+import { IoMdFilm } from "react-icons/io";
 const Navbar = () => {
   return (
     <div>
       <nav className="flex space-x-6 border-b mb-6 px-5 h-14 items-center text-gray-400 ">
-        <span>icon</span>
+        <span>
+          <IoMdFilm />
+        </span>
         <ul className="flex space-x-6">
           <li>
             <a className="aselected movies" title="Selected Movies" href="#">
