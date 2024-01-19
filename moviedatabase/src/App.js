@@ -91,7 +91,7 @@ function App() {
     <div className="App">
       <Header />
       <Main movies={movies} />
-      <Footer />
+      <Footer length={movies.length} />
     </div>
   );
 }
